@@ -89,10 +89,14 @@ A
 {
 	padding-right: 15px;
 }
+.forecast-table
+{
+	width: 100%;
+}
 .forecast-table TH, .forecast-table TD
 {
 	border-bottom: 1px solid #DDD;
-	width: 80%;
+	width: 8%;
 	padding: 8px;
 	text-align: right;
 }
