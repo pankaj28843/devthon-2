@@ -1,0 +1,108 @@
+BODY
+{
+	font-family: avenir, lato, helvetica, arial;
+	background-color: #F8F8F8;
+	color: #333;
+}
+H1
+{
+	font-weight: normal;
+}
+.container
+{
+	width: 70%;
+	margin: 0px auto;
+}
+.inner-container
+{
+	min-height: 400px;
+}
+HEADER .heading1
+{
+	text-align: center;
+	border: 0px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+FOOTER
+{
+	margin-top: 100px;
+	font-size: 12px;
+	text-align: center;
+	border-top: 1px dotted #CCC;
+	padding: 15px 0px;
+}
+.inner-container .heading1
+{
+	border-bottom: 1px solid #7AB55C;
+	font-size: 28px;
+	margin-top: 30px;
+}
+.inner-container .heading1 SPAN
+{
+	border-bottom: 5px solid #7AB55C;
+	padding-right: 30px;
+}
+.trending .heading1, .trending .heading1 SPAN
+{
+	border-color: #5C90B5;
+}
+.forecast .heading1, .forecast .heading1 SPAN
+{
+	border-color: #AA3F14;
+}
+.container UL
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.container LI
+{
+	border-top: 2px solid #FFF;
+	padding: 10px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	clear: both;
+}
+.container UL LI:first-child
+{
+	border: 0px;
+}
+.container LI .veggie
+{
+	font-size: 18px;
+	font-weight: 500;
+	display: block;
+	text-transform: none;
+}
+A
+{
+	/*display: none !important;*/
+	visibility: hidden;
+}
+.dataviz
+{
+	float: right;
+}
+.metadata
+{
+	padding-right: 15px;
+}
+.forecast-table TH, .forecast-table TD
+{
+	border-bottom: 1px solid #DDD;
+	width: 80%;
+	padding: 8px;
+	text-align: right;
+}
+.forecast-table TH
+{
+	border-bottom: 2px solid #CCC;
+	width: 8%;
+}
+.forecast-table .item-cell
+{
+	width: 20%;
+	text-align: left;
+}
